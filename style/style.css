@@ -1,0 +1,155 @@
+/**
+ * Generate Test Images CSS styling
+ *
+ * Styling for the UI
+ *
+ * Author: Munya M. Dev
+ * Version: 1.0.0
+ * Date: 30/06/2023
+ *
+ * */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input_parent {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.input_parent > input {
+  margin: 0px 0px 15px 0px;
+}
+
+.input_inner_parent_group > input {
+  margin: 15px 0px 0px 0px;
+  padding: 5px;
+  background-color: #ededed;
+  border: 1px solid gray;
+}
+
+.input_parent_group {
+  border: 0px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  margin: 15px 10px 15px 10px;
+  padding: 15px 20px 35px 20px;
+}
+
+.button_style_1:hover {
+  background-color: #2e81f5;
+}
+
+.button_style_1 {
+  border: 0px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 20px 20px;
+  background-color: #031b3c;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.form_parent_div_1 {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.form_parent_div_1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.value_descr_1 {
+  margin-right: 10px;
+  color: gray;
+}
+
+.color_descr {
+  margin-right: 10px;
+  border: 0px;
+  padding: 5px 10px;
+  border-radius: 50px;
+  color: white;
+}
+
+._red {
+  background-color: red;
+}
+
+._green {
+  background-color: green;
+}
+
+._blue {
+  background-color: blue;
+}
+
+.lable_style_1 {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.div_style_1 {
+  width: 40px;
+  height: 5px;
+  background-color: gray;
+  cursor: pointer;
+}
+
+.img_parent_group {
+  height: 400px;
+  overflow-y: scroll;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.submit_button_group_1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin: 40px 10px;
+}
+
+.header_div_style_1 {
+  background-color: #435c7e;
+  padding: 20px 0px;
+  margin-bottom: 40px;
+}
+
+.header_style_1 {
+  color: white;
+  text-align: center;
+}
+
+.p_style_1 {
+  color: white;
+  padding: 0px 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 2px;
+  word-wrap: break-word;
+}
+
+@media (max-width: 600px) {
+  .submit_button_group_1 {
+    flex-direction: column;
+  }
+}
